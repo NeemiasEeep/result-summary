@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5em 25em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+}
+
+.azul{
+    background-color: hsl(241, 81%, 54%);
+    color: white;
+    border-radius: 30px;
+    padding: 2em;
+    background-image: linear-gradient(to top , #0000ff, hsl(252, 100%, 67%));
+}
+
+.branco{
+    padding: 2em;
+}
+
+h1{
+    font-size: 1.8em;
+}
+
+span{
+    color: rgb(188, 196, 204);
+}
+
+.num{
+    text-align: right;
+}
+
+.tt{
+    text-align: left;
+}
+
+.red{
+    background-color: hsla(0, 100%, 67%, 0.218);
+    padding: 1em;
+    border-radius: 10px;    
+}
+
+.yel{
+    background-color: hsla(39, 100%, 56%, 0.218);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.green{
+    background-color: hsla(166, 100%, 37%, 0.218);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.blue{
+    background-color: hsla(234, 85%, 45%, 0.218);
+    padding: 1em;
+    border-radius: 10px;    
+}
+
+.cards{
+    padding: 0.25em;
+}
+
+.n_p{
+    font-size: 5.5em;
+}
+
+.circle{
+    margin-top: 2em;
+    margin-left: 3.5em;
+    background-color: hsl(252, 100%, 67%);
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    padding: 2em;
+    background-image: linear-gradient(to bottom , #0000ff93, hsl(252, 100%, 67%));
+}
+
+.of{
+    margin-top: -1.4em;
+    margin-right: 0.8em;
+    font-size: 1em;
+}
+
+.bb{
+    width: 100%;
+    height: 3em;
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);    
+}
+
+.bb:hover{
+    background-color: hsl(252, 100%, 67%);
+}
+
+h4{
+    font-size: 1em;
+}
+
+/* Media queries para diferentes tamanhos de tela */
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    margin: 5em 2em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+    margin: 5em 1em;
+  }
+}
